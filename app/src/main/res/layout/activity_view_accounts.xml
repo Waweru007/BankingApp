@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".ViewAccounts">
+
+
+    <EditText
+        android:layout_marginBottom="10dp"
+        android:id="@+id/inputAccountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Account Number" />
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:onClick="search"
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Account" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtAccName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Name" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtAccNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Number" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:id="@+id/txtAccBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Account Balance" />
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:onClick="delete"
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Account" />
+
+
+</LinearLayout>
